@@ -15,6 +15,7 @@
 * [Project Structure](#project-structure)
 * [Architecture](#architecture)
 * [Troubleshooting](#troubleshooting)
+* [Contributors](#contributors)
 
 ---
 
@@ -262,3 +263,11 @@ Sometimes the arm fails to grab a piece from cardboard, and the classifier outpu
 
 1. We noticed that in all this cases the difference in confidence was very high, so we added a behavior according to which: if the confidence of classifier is low, then we continue picking up new piece since it is likely never made it to the platform.
 ---
+
+## Contributors
+
+* **Michael Kiner**
+* **Elad Erdman**
+* **Daniel Goren**
+* **Moataz Mwasi**
+
