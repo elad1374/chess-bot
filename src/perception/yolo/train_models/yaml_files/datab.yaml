@@ -1,0 +1,8 @@
+path: /home/checkmate/Downloads/data_set_board
+
+train: images/train
+val: images/valid
+
+names:
+  0: black
+  1: white

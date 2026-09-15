@@ -1,0 +1,27 @@
+game:
+  run_board_setup: true
+  run_initial_detection: false
+  white_player: "robot"    # Options: "human", "robot"
+  black_player: "human"    # Options: "human", "robot"
+  white_name: "Human"
+  black_name: "Stockfish Bot"
+  initial_fen: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+
+robot:
+  is_mock: false            # Set to false when connecting to real hardware
+  ip: "192.168.57.101"
+  base_tcp_port: 63352
+  speed: 0.3
+  acceleration: 0.3
+  
+
+engine:
+  is_mock: false
+  path: "/usr/games/stockfish"
+  depth: 15
+  skill_level: 20
+
+vision:
+  model_name: "binary"      # Options: "binary", "unary", "advanced"
+  manual_orientation: false
+  manual_on_platform: false

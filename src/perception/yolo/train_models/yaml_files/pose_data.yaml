@@ -1,0 +1,12 @@
+path: /home/checkmate/Downloads/data_set_carton
+train: images/train
+val: images/val
+
+# Classes configuration
+names:
+  0: Lying
+  1: Standing
+
+# Keypoints configuration: [number_of_keypoints, dim_per_keypoint]
+# dim_per_keypoint = 3 if using (x, y, visibility), or 2 if using only (x, y)
+kpt_shape: [2, 3]

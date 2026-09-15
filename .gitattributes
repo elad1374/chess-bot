@@ -1,0 +1,7 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+ZED/zed_board_images_2/moataz_labels.zip filter=lfs diff=lfs merge=lfs -text
+chess_backbone/stockfish/stockfish-ubuntu-x86-64-avx2 filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+best_chess_classifier.pth filter=lfs diff=lfs merge=lfs -text
+src/core_functionalities/chess_backbone/stockfish/stockfish-ubuntu-x86-64-avx2 filter=lfs diff=lfs merge=lfs -text
